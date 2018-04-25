@@ -1,0 +1,15 @@
+plugins {
+    id 'groovy'
+    id 'maven-publish'
+}
+
+group 'demo'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+}
